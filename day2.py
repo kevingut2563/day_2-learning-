@@ -1,58 +1,64 @@
-# Description: This file is for the second day of the python workshop
+# # Description: This file is for the second day of the python workshop
 
 
-# create variables for the following :
-# 1. age
-age = "16"
-# 2. name
-name = "Kevin" 
-# 3. song
-song = "todo de ti"
-# 4. food
-food = "pizza"
-# 5. number
-number = 50
-# #now include the variables you just made print in the following...
-print(f'''Once upon a time, there was a {age} old coder {name}. {name} liked to hum the song {song} while coding. It was so annoying that their teamates would throw {food} until {name} would stop singing. Still, {name} was the best coder on the team and could write {number} lines of code everday. Maybe {song} was {name}'s secret power? No one will ever know.''')
+# # create variables for the following :
+# # 1. age
+# age = "16"
+# # 2. name
+# name = "Kevin" 
+# # 3. song
+# song = "todo de ti"
+# # 4. food
+# food = "pizza"
+# # 5. number
+# number = 50
+# # #now include the variables you just made print in the following...
+# print(f'''Once upon a time, there was a {age} old coder {name}. {name} liked to hum the song {song} while coding. It was so annoying that their teamates would throw {food} until {name} would stop singing. Still, {name} was the best coder on the team and could write {number} lines of code everday. Maybe {song} was {name}'s secret power? No one will ever know.''')
 
-# Once upon a time, there was a [age] old coder named [name].
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would
-# throw [food] until [name] would stop singing.
-# Still, [name] was the best coder on the team and could write [number] lines of code every day.
-# Maybe [song] was [name]’s secret power?
-# No one will ever know.
+# # Once upon a time, there was a [age] old coder named [name].
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would
+# # throw [food] until [name] would stop singing.
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day.
+# # Maybe [song] was [name]’s secret power?
+# # No one will ever know.
 
-# Syntax is a way of writing code that 
-# name = "john" # javascript syntax 
+# # Syntax is a way of writing code that 
+# # name = "john" # javascript syntax 
 
 
 
-# What is syntax ? What is an algorithm?
-# what is a variable? What is a string?
+# # What is syntax ? What is an algorithm?
+# # what is a variable? What is a string?
 
-# strings are nothing but plain text
-# what does this do?
-print("Giraffe \n academy")
-#/n makes a new line 
-print("giraffe \t academy")
-#\t makes a tab
+# # strings are nothing but plain text
+# # what does this do?
+# print("Giraffe \n academy")
+# #/n makes a new line 
+# print("giraffe \t academy")
+# #\t makes a tab
 
-# or this
-phrase = "python learning" 
-print(phrase + "is cool")
-#this is called concatenation or string interpolation
-phrase = str(phrase)
-#what does the + sign do? What is it called?
-print(f'the length of the phrase" {len(phrase)}')
-DeclarationofIndependence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
-DeclarationofIndependence = str(DeclarationofIndependence)
-print(f'the length of the declaration is  {len(DeclarationofIndependence)}')
+# # or this
+# phrase = "python learning" 
+# print(phrase + "is cool")
+# #this is called concatenation or string interpolation
+# phrase = str(phrase)
+# #what does the + sign do? What is it called?
+# print(f'the length of the phrase" {len(phrase)}')
+# DeclarationofIndependence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+# DeclarationofIndependence = str(DeclarationofIndependence)
+# print(f'the length of the declaration is  {len(DeclarationofIndependence)}')
 
-#what if I wanted to get the length of a phrase?
+# #what if I wanted to get the length of a phrase?
 
 
 #what if I wanted to make the letters in the variable upper case or lower?
-
+new_Phrase = "welcome to day 2 part 3"
+print(len(new_Phrase))
+print(new_Phrase.upper())
+#.upper is a method that makes the string all upper case 
+print(new_Phrase.lower())
+#.lower is a method that makes the string all lower case 
+print(new_Phrase.islower()) #returns a boolean true or false 
 
 
 
@@ -60,7 +66,11 @@ print(f'the length of the declaration is  {len(DeclarationofIndependence)}')
 
 
 #What if I wanted to get one letter of the phrase
-
+print(new_Phrase[0]) 
+print(new_Phrase[1])
+print(new_Phrase[2])
+print(new_Phrase[11])
+print(new_Phrase[-1])
 
 # The names you use when creating these labels need to follow a few rules:
 # 1. Names can not start with a number.
@@ -80,21 +90,21 @@ print(f'the length of the declaration is  {len(DeclarationofIndependence)}')
 
 
 # Addition
-
+print(2+2)
 # Subtraction
-
+print(2-5)
 # Multiplication
-
+print(2*3)
 # Division
-
+print(10/2)
 # Modulus
-
+print(10%3)
 # Exponentiation
-
+print(2**3)
 # Floor Division
-
+print(10//3)
 # Order of Operations followed in Python
-
+print(2*3+1)
 # You can use parentheses to specify the order in which you want operations to be performed.
 
 #to do more you need to import special math libraries from python
